@@ -3,6 +3,9 @@
 
 GOPAX API 명세서 URL : https://gopax.github.io/API/?lang=ko
 
+1.AWS, 고팍스 API 사용에 대한 내용 설명
+
+
 2.EC2 인스턴스, Cloud9 설정
 - EC2 접속키 생성(키페어)
     - EC2 > 키 페어 > 키페어 생성 
@@ -58,3 +61,9 @@ GOPAX API 명세서 URL : https://gopax.github.io/API/?lang=ko
         - KEY : 고팍스 API 키
         - SECRET : 고팍스 시크릿 키
         - python3 src/main/python/api_key.py
+
+
+3.단기 변동성 돌파전략?
+
+
+4.시스템 구조 및 동작 원리 이해
