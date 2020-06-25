@@ -24,14 +24,19 @@ GOPAX API 명세서 URL : https://gopax.github.io/API/?lang=ko
 
 - EC2 ssh 연결
     - EC2 > 인스턴스 > GOPAX API Trading Server 클릭 후 연결
-    - pem 권한 변경
-        - chmod 400 GopaxApiTradingExample.pem
-    - 인스턴스 접속
-        - ssh -i "GopaxApiTradingExample.pem" ubuntu@15.164.170.243
-        - yes
+    - Window
+        - PuTTY > 카테고리 > 연결 > SSH > 인증 개인키 파일 > .ppk 선택
+        - https://github.com/iPuTTY/iPuTTY/releases/tag/l0.70.2i
+    - Mac OS
+        - pem 권한 변경
+            - chmod 400 GopaxApiTradingExample.pem
+        - 인스턴스 접속
+            - ssh -i "GopaxApiTradingExample.pem" ubuntu@15.164.170.243
+            - yes
     - Cloud9 SSH key 추가 // View public SSH key
         - vi .ssh/authorized_keys
-        - o > SSH Key 추가
+        - Windows : o > 마우스 우클릭
+        - Mac OS : o > SSH Key 추가
 
 - Cloud9 생성
     - Cloud9 > Create environment
